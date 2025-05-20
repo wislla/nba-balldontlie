@@ -1,5 +1,41 @@
-# Vue 3 + TypeScript + Vite
+# NBA CRUD - Projeto Vue 3
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este projeto é uma aplicação Vue 3 desenvolvida com TypeScript, Tailwind CSS, Vite, Axios e Jest, que permite realizar operações básicas de CRUD (Create, Read, Update, Delete) utilizando a API pública da NBA balldontlie.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+# Tecnologias Utilizadas
+
+- Vue 3
+- TypeScript
+- Tailwind CSS
+- Vite
+- Axios
+- Jest (Testes)
+- Tailwind Datatable
+- Flowbite
+- Vue Router
+- Lucide Icons
+
+# Funcionalidades
+
+- Exibição dos jogadores da NBA em uma tabela responsiva.
+- Busca dinâmica e filtragem em tempo real.
+- Ordenação dos jogadores (A-Z e Z-A).
+- Edição simulada dos dados do jogador com modal.
+- Exclusão simulada de jogadores com confirmação via modal.
+
+## Instale as dependências:
+```
+npm install
+```
+# Execução
+```
+npm run dev
+```
+# Testes
+```
+npm run test
+```
+## Execute os testes com cobertura:
+```
+npm run test:coverage
+```
