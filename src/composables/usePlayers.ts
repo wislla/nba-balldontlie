@@ -44,7 +44,6 @@ export function usePlayers(params?: UsePlayersParams) {
   })
 
   async function editPlayer(player: Player) {
-    console.log('Editado', player)
     isProcessing.value = true
     try {
       const updated = await fakeEditPlayer(player)
@@ -59,7 +58,6 @@ export function usePlayers(params?: UsePlayersParams) {
   }
 
   async function deletePlayer(player: Player) {
-    console.log('excluido', player)
     isProcessing.value = true
     try {
       await fakeDeletePlayer(player.id)
