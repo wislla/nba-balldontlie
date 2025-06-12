@@ -7,6 +7,11 @@
       "@/*": ["src/*"]
     },
     "types": ["vite/client", "node"],
+    "compilerOptions": {
+      "outDir": "./dist/types",
+      "declaration": true,
+      "emitDeclarationOnly": true
+    },
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -20,6 +25,6 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
-    "src/shims-vue3-easy-data-table.d.ts"
+    "src/types/bluetooth.d.ts"
   ]
 }

@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "prebuild": "rm -rf src/**/*.js src/**/*.js.map dist",
+    "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .ts,.js,.vue src",
     "lint:fix": "eslint --fix --ext .ts,.js,.vue src",
